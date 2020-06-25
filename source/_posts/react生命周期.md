@@ -6,7 +6,7 @@ tags: React
 react目前市面上使用的主要是v16前的生命周期，和v16之后的。所以我们应当都掌握一下。
 ### React v16.0 前的生命周期
 主要分为Initialization,Mounting,Updation,Unmounting。
-
+![早期生命周期](https://techstudyblog.top/2019/09/28/react-life-cycle/react.png)
 初始化阶段：主要是构造函数这些方法使用，包括定义的类继承react component基类，准备开始调用render()、生命周期等方法。函数组件不能使用这些方法也是没继承这个原因。
 这个阶段，可调用基类的构造方法，父组件props注入子组件，组件中的props只读不可变，state可变。
 constructor()做组件的初始化工作，如定义this.state。
